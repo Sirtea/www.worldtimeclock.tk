@@ -1,0 +1,28 @@
+clocks:
+  - city: UTC
+    url: <iframe src="http://free.timeanddate.com/clock/i630upu8/tles4/fn7/fs20/tct/pct/ftb/tt0/tw0/tm3/td2/th1/ta1/tb4" frameborder="0" width="143" height="58" allowTransparency="true"></iframe>
+    order: 0
+  - city: New York
+    url: <iframe src="http://free.timeanddate.com/clock/i630upu8/n179/tles4/fn7/fs20/tct/pct/ftb/tt0/tw0/tm3/td2/th1/ta1/tb4" frameborder="0" width="143" height="58" allowTransparency="true"></iframe>
+    order: 1
+  - city: Tokyo
+    url: <iframe src="http://free.timeanddate.com/clock/i630upu8/n248/tles4/fn7/fs20/tct/pct/ftb/tt0/tw0/tm3/td2/th1/ta1/tb4" frameborder="0" width="143" height="58" allowTransparency="true"></iframe>
+    order: 2
+  - city: Madrid
+    url: <iframe src="http://free.timeanddate.com/clock/i630upu8/n141/tles4/fn7/fs20/tct/pct/ftb/tt0/tw0/tm3/td2/th1/ta1/tb4" frameborder="0" width="141" height="58" allowTransparency="true"></iframe>
+    order: 3
+  - city: Paris
+    url: <iframe src="http://free.timeanddate.com/clock/i630upu8/n195/tles4/fn7/fs20/tct/pct/ftb/tt0/tw0/tm3/td2/th1/ta1/tb4" frameborder="0" width="141" height="58" allowTransparency="true"></iframe>
+    order: 4
+  - city: Berlin
+    url: <iframe src="http://free.timeanddate.com/clock/i630upu8/n37/tles4/fn7/fs20/tct/pct/ftb/tt0/tw0/tm3/td2/th1/ta1/tb4" frameborder="0" width="141" height="58" allowTransparency="true"></iframe>
+    order: 5
+  - city: Moscow
+    url: <iframe src="http://free.timeanddate.com/clock/i630upu8/n166/tles4/fn7/fs20/tct/pct/ftb/tt0/tw0/tm3/td2/th1/ta1/tb4" frameborder="0" width="146" height="58" allowTransparency="true"></iframe>
+    order: 6
+  - city: Pekin
+    url: <iframe src="http://free.timeanddate.com/clock/i630upu8/n33/tles4/fn7/fs20/tct/pct/ftb/tt0/tw0/tm3/td2/th1/ta1/tb4" frameborder="0" width="143" height="58" allowTransparency="true"></iframe>
+    order: 7
+  - city: England
+    url: <iframe src="http://free.timeanddate.com/clock/i630upu8/n136/tles4/fn7/fs20/tct/pct/ftb/tt0/tw0/tm3/td2/th1/ta1/tb4" frameborder="0" width="147" height="58" allowTransparency="true"></iframe>
+    order: 8

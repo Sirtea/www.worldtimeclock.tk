@@ -1,0 +1,7 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "World Time Clock"
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "robotsTXT"]
+disableHugoGeneratorInject = true
+publishDir = "docs"
+theme = "clocks"
