@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ .Site.Title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/skeleton.css">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <h1>{{ .Site.Title }}</h1>
+      </div>
+{{- $.Scratch.Set "inrow" false }}
+{{- range $i, $e := sort .Site.Data.clocks.clocks "order" }}
+{{- if eq ($.Scratch.Get "inrow") false }}
+      <div class="row">
+{{- $.Scratch.Set "inrow" true }}
+{{- end }}
+        <div class="four columns">
+          <h2>{{ $e.city }}</h2>
+          {{ safeHTML $e.url }}
+        </div>
+{{- if eq (mod $i 3) 2 }}
+      </div>
+{{- $.Scratch.Set "inrow" false }}
+{{- end }}
+{{- end }}
+{{- if eq ($.Scratch.Get "inrow") true }}
+      </div>
+{{- $.Scratch.Set "inrow" false }}
+{{- end }}
+    </div>
+  </body>
+</html>
