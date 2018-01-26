@@ -1,6 +1,7 @@
 {{ partial "header.html" . }}
       <div class="row">
         <h1>{{ .Site.Title }}</h1>
+{{ partial "adsense.html" . }}
       </div>
 {{- $.Scratch.Set "inrow" false }}
 {{- range $i, $e := sort .Site.Data.clocks.clocks "order" }}
